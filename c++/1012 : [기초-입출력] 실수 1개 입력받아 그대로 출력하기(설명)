@@ -1,0 +1,17 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // Write C++ code here
+    float x;
+    
+    cin >> x;
+    cout.setf(ios::showpoint);
+    cout<<fixed;
+    cout.precision(6);
+    cout << x;
+
+    return 0;
+}
