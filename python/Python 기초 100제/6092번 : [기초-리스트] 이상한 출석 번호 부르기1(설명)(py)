@@ -1,0 +1,9 @@
+n = int(input())
+x = [int(x) for x in input().split()]
+list_num = [x*0 for x in range(23)]
+
+for i in x:
+    list_num[i-1] += 1
+
+for i in list_num:
+    print(i,end=' ')
